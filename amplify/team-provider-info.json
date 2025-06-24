@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-carpconnect2-dev-fd8ef-authRole",
+      "UnauthRoleArn": "arn:aws:iam::384504716192:role/amplify-carpconnect2-dev-fd8ef-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::384504716192:role/amplify-carpconnect2-dev-fd8ef-authRole",
+      "Region": "ap-northeast-3",
+      "DeploymentBucketName": "amplify-carpconnect2-dev-fd8ef-deployment",
+      "UnauthRoleName": "amplify-carpconnect2-dev-fd8ef-unauthRole",
+      "StackName": "amplify-carpconnect2-dev-fd8ef",
+      "StackId": "arn:aws:cloudformation:ap-northeast-3:384504716192:stack/amplify-carpconnect2-dev-fd8ef/b3c92720-50c1-11f0-93a5-0635c5a004ad",
+      "AmplifyAppId": "d3pi3fj5mlc8wp"
+    },
+    "categories": {
+      "auth": {
+        "carpconnect22c256fd8": {}
+      }
+    }
+  }
+}
