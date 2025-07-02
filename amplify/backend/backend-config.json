@@ -1,7 +1,22 @@
 {
+  "api": {
+    "api5de11063": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "carpconnect23a04df11"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
   "auth": {
-    "carpconnect22c256fd8": {
-      "customAuth": false,
+    "carpconnect2": {
       "dependsOn": [],
       "frontendAuthConfig": {
         "mfaConfiguration": "OFF",
@@ -13,12 +28,7 @@
           "passwordPolicyMinLength": 8
         },
         "signupAttributes": [
-          "BIRTHDATE",
-          "EMAIL",
-          "FAMILY_NAME",
-          "GENDER",
-          "GIVEN_NAME",
-          "PHONE_NUMBER"
+          "EMAIL"
         ],
         "socialProviders": [],
         "usernameAttributes": [],
@@ -27,7 +37,34 @@
         ]
       },
       "providerPlugin": "awscloudformation",
-      "service": "Cognito"
+      "service": "Cognito",
+      "serviceType": "managed"
+    }
+  },
+  "function": {
+    "carpconnect23a04df11": {
+      "build": true,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_carpconnect23a04df11_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "carpconnect23a04df11"
+        }
+      ]
+    },
+    "AMPLIFY_function_carpconnect23a04df11_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "carpconnect23a04df11"
+        }
+      ]
     }
   }
 }

@@ -1,19 +1,29 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-carpconnect2-dev-fd8ef-authRole",
-      "UnauthRoleArn": "arn:aws:iam::384504716192:role/amplify-carpconnect2-dev-fd8ef-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::384504716192:role/amplify-carpconnect2-dev-fd8ef-authRole",
+      "AuthRoleName": "amplify-carpconnect2-dev-595cd-authRole",
+      "UnauthRoleArn": "arn:aws:iam::384504716192:role/amplify-carpconnect2-dev-595cd-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::384504716192:role/amplify-carpconnect2-dev-595cd-authRole",
       "Region": "ap-northeast-3",
-      "DeploymentBucketName": "amplify-carpconnect2-dev-fd8ef-deployment",
-      "UnauthRoleName": "amplify-carpconnect2-dev-fd8ef-unauthRole",
-      "StackName": "amplify-carpconnect2-dev-fd8ef",
-      "StackId": "arn:aws:cloudformation:ap-northeast-3:384504716192:stack/amplify-carpconnect2-dev-fd8ef/b3c92720-50c1-11f0-93a5-0635c5a004ad",
-      "AmplifyAppId": "d3pi3fj5mlc8wp"
+      "DeploymentBucketName": "amplify-carpconnect2-dev-595cd-deployment",
+      "UnauthRoleName": "amplify-carpconnect2-dev-595cd-unauthRole",
+      "StackName": "amplify-carpconnect2-dev-595cd",
+      "StackId": "arn:aws:cloudformation:ap-northeast-3:384504716192:stack/amplify-carpconnect2-dev-595cd/66a22040-571b-11f0-8b56-0e60a0daf71d",
+      "AmplifyAppId": "d16r3w4cdlr1x2",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-carpconnect2-dev-595cd-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
     },
     "categories": {
+      "function": {
+        "carpconnect23a04df11": {
+          "deploymentBucketName": "amplify-carpconnect2-dev-595cd-deployment",
+          "s3Key": "amplify-builds/carpconnect23a04df11-506c6a52416477475844-build.zip"
+        }
+      },
       "auth": {
-        "carpconnect22c256fd8": {}
+        "carpconnect2": {}
+      },
+      "api": {
+        "api5de11063": {}
       }
     }
   }

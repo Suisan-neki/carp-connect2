@@ -1,10 +1,10 @@
 {
   "version": "1",
   "cognitoConfig": {
-    "identityPoolName": "carpconnect22c256fd8_identitypool_2c256fd8",
+    "identityPoolName": "carpconnect2_identitypool_ec1d8a6e",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "carpco2c256fd8",
-    "userPoolName": "carpconnect22c256fd8_userpool_2c256fd8",
+    "resourceNameTruncated": "carpcoec1d8a6e",
+    "userPoolName": "carpconnect2_userpool_ec1d8a6e",
     "autoVerifiedAttributes": [
       "email"
     ],
@@ -20,12 +20,7 @@
     "passwordPolicyMinLength": 8,
     "passwordPolicyCharacters": [],
     "requiredAttributes": [
-      "birthdate",
-      "email",
-      "family_name",
-      "gender",
-      "given_name",
-      "phone_number"
+      "email"
     ],
     "aliasAttributes": [],
     "userpoolClientGenerateSecret": false,
@@ -36,16 +31,12 @@
     "userpoolClientReadAttributes": [
       "email"
     ],
-    "userpoolClientLambdaRole": "carpco2c256fd8_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "carpcoec1d8a6e_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "2c256fd8",
-    "resourceName": "carpconnect22c256fd8",
     "authSelections": "identityPoolAndUserPool",
-    "useDefault": "default",
-    "triggers": {},
-    "userPoolGroupList": [],
+    "resourceName": "carpconnect2",
+    "sharedId": "ec1d8a6e",
     "serviceName": "Cognito",
-    "usernameCaseSensitive": false,
-    "useEnabledMfas": true
+    "useDefault": "manual"
   }
 }
