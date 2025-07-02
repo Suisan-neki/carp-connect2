@@ -1,6 +1,6 @@
 {
   "api": {
-    "api5de11063": {
+    "api372e32f3": {
       "dependsOn": [
         {
           "attributes": [
@@ -8,7 +8,23 @@
             "Arn"
           ],
           "category": "function",
-          "resourceName": "carpconnect23a04df11"
+          "resourceName": "carpconnect2ff680fb3"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "userprofilefunction"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "messageFunction"
         }
       ],
       "providerPlugin": "awscloudformation",
@@ -16,7 +32,8 @@
     }
   },
   "auth": {
-    "carpconnect2": {
+    "carpconnect2a0487489": {
+      "customAuth": false,
       "dependsOn": [],
       "frontendAuthConfig": {
         "mfaConfiguration": "OFF",
@@ -37,32 +54,72 @@
         ]
       },
       "providerPlugin": "awscloudformation",
-      "service": "Cognito",
-      "serviceType": "managed"
+      "service": "Cognito"
     }
   },
   "function": {
-    "carpconnect23a04df11": {
+    "carpconnect2ff680fb3": {
       "build": true,
-      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "messageFunction": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "userprofilefunction": {
+      "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
     }
   },
   "parameters": {
-    "AMPLIFY_function_carpconnect23a04df11_deploymentBucketName": {
+    "AMPLIFY_function_carpconnect2ff680fb3_deploymentBucketName": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "carpconnect23a04df11"
+          "resourceName": "carpconnect2ff680fb3"
         }
       ]
     },
-    "AMPLIFY_function_carpconnect23a04df11_s3Key": {
+    "AMPLIFY_function_carpconnect2ff680fb3_s3Key": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "carpconnect23a04df11"
+          "resourceName": "carpconnect2ff680fb3"
+        }
+      ]
+    },
+    "AMPLIFY_function_messageFunction_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "messageFunction"
+        }
+      ]
+    },
+    "AMPLIFY_function_messageFunction_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "messageFunction"
+        }
+      ]
+    },
+    "AMPLIFY_function_userprofilefunction_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "userprofilefunction"
+        }
+      ]
+    },
+    "AMPLIFY_function_userprofilefunction_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "userprofilefunction"
         }
       ]
     }

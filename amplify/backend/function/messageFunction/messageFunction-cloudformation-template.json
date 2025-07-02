@@ -47,12 +47,12 @@
         "FunctionName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "carpconnect23a04df11",
+            "messageFunction",
             {
               "Fn::Join": [
                 "",
                 [
-                  "carpconnect23a04df11",
+                  "messageFunction",
                   "-",
                   {
                     "Ref": "env"
@@ -89,12 +89,12 @@
         "RoleName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "carpconnect2LambdaRoleffc3632f",
+            "carpconnect2LambdaRoleae3ead7f",
             {
               "Fn::Join": [
                 "",
                 [
-                  "carpconnect2LambdaRoleffc3632f",
+                  "carpconnect2LambdaRoleae3ead7f",
                   "-",
                   {
                     "Ref": "env"

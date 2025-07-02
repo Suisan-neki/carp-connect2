@@ -3,6 +3,27 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* Amplify UI Customization for Carp Colors */
+  --amplify-colors-brand-primary-80: #CC0000; /* Carp Red */
+  --amplify-colors-brand-primary-60: #E60000; /* Lighter Carp Red */
+  --amplify-colors-brand-primary-10: #FFCCCC; /* Very Light Carp Red */
+  --amplify-colors-font-primary: #FFFFFF; /* White for text on red background */
+  --amplify-colors-font-inverse: #000000; /* Black for text on white background */
+
+  /* Override some default Amplify UI colors for better contrast */
+  --amplify-colors-background-primary: #FFFFFF; /* White background for forms */
+  --amplify-colors-background-secondary: #F0F0F0; /* Light gray for secondary backgrounds */
+  --amplify-colors-border-primary: #CCCCCC; /* Light gray for borders */
+  --amplify-colors-border-secondary: #E0E0E0; /* Lighter gray for secondary borders */
+  --amplify-colors-overlay-backdrop: rgba(0, 0, 0, 0.5); /* Dark overlay for modals */
+
+  /* Adjust text colors for better readability on white/light backgrounds */
+  --amplify-colors-font-active: #CC0000; /* Active text in Carp Red */
+  --amplify-colors-font-hover: #E60000; /* Hover text in Lighter Carp Red */
+  --amplify-colors-font-tertiary: #666666; /* Tertiary text in dark gray */
+  --amplify-colors-font-warning: #FF9900; /* Warning text in orange */
+  --amplify-colors-font-error: #FF0000; /* Error text in red */
 }
 
 @theme inline {

@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "paths": {
+    "/posts": {
+      "name": "/posts",
+      "lambdaFunction": "carpconnect2ff680fb3",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    },
+    "/users": {
+      "name": "/users",
+      "lambdaFunction": "userprofilefunction",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    },
+    "/messages": {
+      "name": "/messages",
+      "lambdaFunction": "messageFunction",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read"
+        ]
+      }
+    }
+  }
+}
